@@ -6,8 +6,10 @@
 
 header {
     width: 100%;
-    background-color: blue;
+    background-image: linear-gradient(to right, red, yellow);
+    /* background-color: blue; */
     text-align: center;
     margin: auto;
 
 }
+
