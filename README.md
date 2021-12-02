@@ -6,9 +6,9 @@ This app allows clients to see the weather outlook for multiple cities for when 
 # Technologies Used
   * JavaScript
   * jQuery
-  HTML
-  CSS
-  OpenWeather API
+  * HTML
+  * Bootstrap
+  * OpenWeather API
   
 # Look
 
