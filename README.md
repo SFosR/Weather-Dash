@@ -9,8 +9,12 @@ This app allows clients to see the weather outlook for multiple cities for when 
   HTML
   CSS
   OpenWeather API
-  
-# Look
+  # Look
+  <img width="1440" alt="Screen Shot 2021-12-08 at 7 30 51 PM" src="https://user-images.githubusercontent.com/87589967/145312857-515e6b98-8ee5-4455-8e4c-0e1f74ea6043.png">
+
+
+
+
 
 # Created By:
   Sheri Foster  fostr.sheri@gmail.com 
