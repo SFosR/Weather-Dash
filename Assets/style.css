@@ -1,15 +1,60 @@
+main {
+  display: flex;
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
 }
 
 header {
-    width: 100%;
-    background-image: linear-gradient(to right, red, yellow);
-    /* background-color: blue; */
-    text-align: center;
-    margin: auto;
+  width: 100%;
+  background-image: linear-gradient(to right, rgb(30, 30, 198), rgb(95, 95, 188));
+  text-align: center;
+  margin: auto;
+}
+
+#big-box {
+  display: flex;
+  justify-content: space-around;
+  
+}
+#search-button {
+  background-color: rgb(48, 84, 150);
+}
+
+#main-container {
+  width: 30%;
+
+  
+}
+
+#results-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
 
 }
 
+#current-weather-title {
+  border: 5px solid black;
+}
+
+ 
+#five-day-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+  }
+
+  .card {
+    background-color: rgb(48, 84, 150) !important;  /*this overrides the bootstrap class css*/
+    padding: 5px;
+  }
+
+  #current-uvi {
+    width: 100px;
+  }

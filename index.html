@@ -21,45 +21,52 @@
       <h1>Weather Dashboard</h1>
     </header>
 
-    <div id='main-container'>
-    <!-- Search box and past searches nav links -->
-    <div class="container-fluid">
-      <div class="row">
-        <nav class="col-3 col-md-3 p-3">
-          <h3>Search for a City:</h3>
-          <form id="search-form" class="form">
-            <input id="search-input" type="text" placeholder="Enter City" />
-            <button id="search-button" type="submit">Search</button>
-            <div class="cities-box">
-              <ul class="cities"></ul>
-            </div>
-          </form>
-          <div>
-            <ul id="search-history"></ul>
-          </div>
-        </nav>
-      </div>
-    </div>
+   <div id="big-box">
 
+    <section id='main-container'>
+        <!-- Search box and past searches nav links -->
+      <div class="container-fluid">
+        <div class="row">
+          <nav class="col-12 col-md-12 p-12">
+            <h3>Search for a City:</h3>
+              <form id="search-form" class="form">
+                <input id="search-input" type="text" placeholder="Enter City" />
+                <button id="search-button" type="submit">Search</button>
+                  <div class="cities-box">
+                    <ul class="cities"></ul>
+                  </div>
+              </form>
+                <div>
+                  <ul id="search-history"></ul>
+                </div>
+           </nav>
+        </div>
+      </div>
+    </section> 
+    
+  
+    
     
     <!-- Box for current city and weather -->
-    <div>
-
-    
-      <div id="current-weather" class="card">
+    <section id="results-container">
         <div id='current-weather-title'>
-          <h1 id="current-city-name"></h1>
+          <h1 id="current-city-name"></h1> 
           <h3 id="current-date"></h3>
           <img id="current-icon"></img>
+          <h4 id="current-temp"></h4>
+          <h4 id="current-humidity"></h4>
+          <h4 id="current-windspeed"></h4>
+          <h4 id="current-uvi"></h4>
+          
         </div>
-        
-    </div>
+        <div id="five-day-forecast">
+        </div>   
+      </section>
+              
+    </div>  
       
-      <!-- 5 day forecast boxes -->
-      <div id="five-day-forecast"></div>
 
-  </div>
-</div>
+ 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
